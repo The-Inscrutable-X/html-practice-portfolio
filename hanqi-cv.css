@@ -1,0 +1,69 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+/* CV header image styling */
+img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section styling */
+h2 {
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+/* Education, Projects, etc., section details */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Tech Skills specific styling */
+.tech-skills b {
+    color: #0056b3;
+}
+
+/* Project and Activity descriptions */
+.project-detail, .activity-detail {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Contact and Links styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
